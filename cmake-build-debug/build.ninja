@@ -73,6 +73,18 @@ build CMakeFiles/untitled27.dir/task_9.c.obj: C_COMPILER__untitled27_unscanned_D
   OBJECT_DIR = CMakeFiles\untitled27.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled27.dir
 
+build CMakeFiles/untitled27.dir/task_10.c.obj: C_COMPILER__untitled27_unscanned_Debug C$:/Users/vladi/CLionProjects/untitled27/task_10.c || cmake_object_order_depends_target_untitled27
+  DEP_FILE = CMakeFiles\untitled27.dir\task_10.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\untitled27.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled27.dir
+
+build CMakeFiles/untitled27.dir/test_function_10.c.obj: C_COMPILER__untitled27_unscanned_Debug C$:/Users/vladi/CLionProjects/untitled27/test_function_10.c || cmake_object_order_depends_target_untitled27
+  DEP_FILE = CMakeFiles\untitled27.dir\test_function_10.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\untitled27.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled27.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target untitled27
@@ -81,7 +93,7 @@ build CMakeFiles/untitled27.dir/task_9.c.obj: C_COMPILER__untitled27_unscanned_D
 #############################################
 # Link the executable untitled27.exe
 
-build untitled27.exe: C_EXECUTABLE_LINKER__untitled27_Debug CMakeFiles/untitled27.dir/test_function_8.c.obj CMakeFiles/untitled27.dir/working_with_files/file_.c.obj CMakeFiles/untitled27.dir/work_matrix/matrix.c.obj CMakeFiles/untitled27.dir/task_9.c.obj
+build untitled27.exe: C_EXECUTABLE_LINKER__untitled27_Debug CMakeFiles/untitled27.dir/test_function_8.c.obj CMakeFiles/untitled27.dir/working_with_files/file_.c.obj CMakeFiles/untitled27.dir/work_matrix/matrix.c.obj CMakeFiles/untitled27.dir/task_9.c.obj CMakeFiles/untitled27.dir/task_10.c.obj CMakeFiles/untitled27.dir/test_function_10.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\untitled27.dir
